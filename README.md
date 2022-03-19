@@ -25,7 +25,7 @@
 [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
 
 
-```:pubspec.yaml
+``` : pubspec.yaml
 flutter_icons:
   android: "launcher_icon"
   ios: true
@@ -38,3 +38,20 @@ flutter_icons:
 ```
 flutter pub run flutter_launcher_icons:main
 ```
+
+## 1.3. 
+[flutter_native_splash](https://pub.dev/packages/flutter_native_splash)
+
+
+``` : puspec.yaml
+flutter_native_splash:
+  image: "assets/images/splash.png"
+  color: "ffffff"
+```
+
+下記のコマンドを実行する
+```
+flutter pub run flutter_native_splash:create
+```
+
+
