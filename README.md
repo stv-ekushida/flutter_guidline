@@ -20,7 +20,7 @@
 |14|フォントの設定|-|○| | |
 |15|端末縦固定|-|○| | |
 
-## 1.1. アプリアイコンの設定 / 1.2. アダプティブアイコンの設定
+## アプリアイコンの設定 / アダプティブアイコンの設定
 
 [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
 
@@ -39,7 +39,7 @@ flutter_icons:
 flutter pub run flutter_launcher_icons:main
 ```
 
-## 1.3. 
+## スプラッシュ画面の設定
 [flutter_native_splash](https://pub.dev/packages/flutter_native_splash)
 
 
