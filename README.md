@@ -77,9 +77,26 @@ void main() {
 
 ```
 import 'package:timezone/data/latest.dart' as tz;
+
 void main() {
   tz.initializeTimeZones();
 }
 ```
+
+## 端末の文字サイズ無効化
+
+```
+   return MaterialApp(
+        builder: (context, widget) {
+          return MediaQuery(
+            data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
+            child: widget!,
+          );
+        },
+
+      );
+```      
+
+
 
 
