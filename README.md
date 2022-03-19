@@ -20,8 +20,7 @@
 |14|フォントの設定|-|○| | |
 |15|端末縦固定|-|○| | |
 
-## 1.1. アプリアイコンの設定
-## 1.2. アダプティブアイコンの設定
+## 1.1. アプリアイコンの設定 / 1.2. アダプティブアイコンの設定
 
 [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
 
