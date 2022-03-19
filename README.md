@@ -19,3 +19,22 @@
 |13|Firebaseの設定|-|○| | |
 |14|フォントの設定|-|○| | |
 |15|端末縦固定|-|○| | |
+
+## 1.1. アプリアイコンの設定
+
+[flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
+
+
+```:pubspec.yaml
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "assets/images/adaptive-icon-background.png"
+  adaptive_icon_foreground: "assets/images/adaptive-icon-foreground.png"
+```  
+
+下記のコマンドを実行する
+```
+flutter pub run flutter_launcher_icons:main
+```
