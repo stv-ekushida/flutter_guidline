@@ -63,10 +63,23 @@ https://docs.flutter.dev/development/accessibility-and-localization/internationa
 ## ステータスバーの透過
 
 ```
+import 'package:flutter/services.dart';
+
+void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
   ));
+}
 ```
 
+## タイムゾーンの設定
+[timezone](https://pub.dev/packages/timezone)
+
+```
+import 'package:timezone/data/latest.dart' as tz;
+void main() {
+  tz.initializeTimeZones();
+}
+```
 
 
