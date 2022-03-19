@@ -54,4 +54,19 @@ flutter_native_splash:
 flutter pub run flutter_native_splash:create
 ```
 
+## サポート言語の設定
+https://docs.flutter.dev/development/accessibility-and-localization/internationalization
+
+
+## Flavorの設定
+
+## ステータスバーの透過
+
+```
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+  ));
+```
+
+
 
