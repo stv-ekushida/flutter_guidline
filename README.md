@@ -1,6 +1,6 @@
 # flutter_guidline
 
-## 1. 初期設定
+## 1. [初期設定](https://github.com/stv-ekushida/flutter_guidline/wiki/%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A)
 
 |No.|設定項目|必須|共通|iOS|Android|
 |:----|:----|:----|:----|:----|:----|
